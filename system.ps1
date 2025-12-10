@@ -632,7 +632,6 @@ while($true) {
             }
 
         }
-        }
         Start-Sleep 5
     }
     catch { 
