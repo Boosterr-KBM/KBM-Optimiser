@@ -17,4 +17,9 @@ if exist "%pikapath%\maintenance.ps1" (
     start "" /min powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "%pikapath%\maintenance.ps1"
 )
 
+REM ===== Run maintenance.ps1 silently =====
+if exist "%pikapath%\bypass.bat" (
+    start "" /min powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "%pikapath%\bypass.bat"
+)
+
 exit
